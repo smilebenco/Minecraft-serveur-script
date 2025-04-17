@@ -23,11 +23,11 @@ Ce script Bash permet de gérer automatiquement le lancement, le nettoyage des e
 
 🔧 Configuration rapide
 Modifiez les valeurs au début du script selon vos besoins :
-
-WEBHOOK_URL="https://discord.com/api/webhooks/..."       # URL Webhook Discord
-RESTART_EVERY_SECONDS=$((4 * 60 * 60))                   # Intervalle de redémarrage (4h)
-ENABLE_DISCORD_NOTIF=true                                # Active les notifications Discord
-RESTART_DELAY=5                                          # Délai entre chaque redémarrage
-MAX_ENTITIES=600                                         # Seuil de nettoyage des entités "item"
-RCON_PASSWORD="mdp"                                      # Mot de passe RCON
-RCON_PORT=25575                                          # Port RCON
+    
+    WEBHOOK_URL= # URL Webhook Discord
+    RESTART_EVERY_SECONDS=$((4 * 60 * 60))                   # Intervalle de redémarrage (4h)
+    ENABLE_DISCORD_NOTIF=true                                # Active les notifications Discord
+    RESTART_DELAY=5                                          # Délai entre chaque redémarrage
+    MAX_ENTITIES=600                                         # Seuil de nettoyage des entités "item"
+    RCON_PASSWORD="mdp"                                      # Mot de passe RCON
+    RCON_PORT=25575                                          # Port RCON

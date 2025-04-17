@@ -24,7 +24,7 @@ Ce script Bash permet de gérer automatiquement le lancement, le nettoyage des e
 🔧 Configuration rapide
 Modifiez les valeurs au début du script selon vos besoins :
     
-    WEBHOOK_URL= # URL Webhook Discord
+    WEBHOOK_URL= # URL Webhook Discord                       # URL Webhook Discord
     RESTART_EVERY_SECONDS=$((4 * 60 * 60))                   # Intervalle de redémarrage (4h)
     ENABLE_DISCORD_NOTIF=true                                # Active les notifications Discord
     RESTART_DELAY=5                                          # Délai entre chaque redémarrage
